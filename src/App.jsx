@@ -26,7 +26,7 @@ function App() {
       <ProjectsContextProvider>
         <Routes>
           <Route
-            path="/"
+            path=""
             element={
               <Suspense fallback={<Loading />}>
                 {" "}
@@ -35,7 +35,7 @@ function App() {
             }
           />
           <Route
-            path="/contact"
+            path="contact"
             element={
               <Suspense fallback={<Loading />}>
                 {" "}
@@ -44,7 +44,7 @@ function App() {
             }
           />
           <Route
-            path="/about"
+            path="about"
             element={
               <Suspense fallback={<Loading />}>
                 {" "}
@@ -53,7 +53,7 @@ function App() {
             }
           />
           <Route
-            path="/services"
+            path="services"
             element={
               <Suspense fallback={<Loading />}>
                 {" "}
@@ -62,7 +62,7 @@ function App() {
             }
           />
           <Route
-            path="/projects"
+            path="projects"
             element={
               <Suspense fallback={<Loading />}>
                 {" "}
@@ -71,7 +71,7 @@ function App() {
             }
           />
           <Route
-            path="/projectDetails/:id"
+            path="projectDetails/:id"
             element={
               <Suspense fallback={<Loading />}>
                 {" "}

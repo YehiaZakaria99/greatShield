@@ -65,7 +65,7 @@ const Navbar = () => {
           isOpen ? "max-h-96 opacity-100 py-4" : "max-h-0 opacity-0 py-0"
         }`}
       >
-        {["/", "/about", "/services", "/projects", "/contact"].map((path, idx) => {
+        {["", "about", "services", "projects", "contact"].map((path, idx) => {
           const labels = ["Home", "About", "Services", "Projects", "Contact Us"];
           return (
             <NavLink
